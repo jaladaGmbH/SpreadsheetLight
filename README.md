@@ -244,9 +244,9 @@ Fixed URI thingie in relationship file so LibreOffice Calc can load in metadata.
 * Modified HideChartTitle() of SLChart to use AutoTitleDeleted. This will handle the auto-title for pie charts.
 
 **Version 1.1.7.1** (17 Jul 2012)
-Fixed bug. Will crash when gradient fill of SLShapeProperties is used (SLGradientStop not properly initialised when given a hexadecimal colour value)
-Added functions to group several settings together for: top bevels, bottom bevels, extrusion and contour on the SLFormat3D class
-Added a function to allow hiding of the chart legend
+* Fixed bug. Will crash when gradient fill of SLShapeProperties is used (SLGradientStop not properly initialised when given a hexadecimal colour value)
+* Added functions to group several settings together for: top bevels, bottom bevels, extrusion and contour on the SLFormat3D class
+* Added a function to allow hiding of the chart legend
 
 **Version 1.1.7** (16 Jul 2012)
 * Breaking Change! New namespaces introduced: Charts and Drawing.
@@ -281,10 +281,10 @@ Added a function to allow hiding of the chart legend
 * More overloads of shortcut functions from font, fill, alignment onto SLStyle
 
 **Version 1.1.3** (11 May 2012)
-*Fixed bug on setting cells and overwriting any existing cell
-*Set it such that only when image insertion with relative position or splitting forces custom row/column dimensions (this makes the worksheet look more “natural”)
-*SetCellValueByRef() overloaded into SetCellValue() (34 overloaded functions!)
-*Minor formula change on setting string cell values (check if equal sign at start, then set as numeric formula)
+* Fixed bug on setting cells and overwriting any existing cell
+* Set it such that only when image insertion with relative position or splitting forces custom row/column dimensions (this makes the worksheet look more “natural”)
+* SetCellValueByRef() overloaded into SetCellValue() (34 overloaded functions!)
+* Minor formula change on setting string cell values (check if equal sign at start, then set as numeric formula)
 
 **Version 1.1.2** (1 May 2012)
 * Used a 2-int structure instead of string for cell reference (sped up performance and reduced memory use. And made it easier internally to write code…)
